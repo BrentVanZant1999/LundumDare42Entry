@@ -1,10 +1,19 @@
 {
-    "id": "eeea715a-915d-463d-a477-e4f62787061c",
+    "id": "3246b13a-42ac-4191-b2d9-2096a23c3792",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gridObject",
+    "name": "obj_mixControl",
     "eventList": [
-        
+        {
+            "id": "80cd2b66-d713-491c-bd74-1cc963c40322",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3246b13a-42ac-4191-b2d9-2096a23c3792"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
