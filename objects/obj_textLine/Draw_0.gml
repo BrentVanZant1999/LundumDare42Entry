@@ -1,0 +1,25 @@
+draw_set_font(ft_text);
+draw_set_alpha(myOpacity);
+switch(colorType){
+case(0):
+{
+	draw_set_color(obj_dataTracker.textColor1);
+}
+break;
+case(1):
+{
+	draw_set_color(obj_dataTracker.textColor2);
+}
+break;
+case(2):
+{
+	draw_set_color(obj_dataTracker.textColor3);
+}
+break;
+case(3):
+{
+	draw_set_color(obj_dataTracker.textColor4);
+}
+break;
+}
+draw_text(myX,myY,value);
