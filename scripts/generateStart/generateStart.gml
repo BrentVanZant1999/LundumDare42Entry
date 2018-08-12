@@ -11,7 +11,7 @@ with (obj_gridSpace) {
 		global.yPos = y;
 	}	
 }
-global.plantCreated = instance_create_depth(global.xPos, global.yPos, -1, obj_plant);
+global.plantCreated = instance_create_depth(global.xPos, global.yPos, -global.yCord, obj_plant);
 global.plantCreated.type = 1; 
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
@@ -32,7 +32,7 @@ with (obj_gridSpace) {
 		global.yPos = y;
 	}	
 }
-global.plantCreated = instance_create_depth(global.xPos, global.yPos, -1, obj_plant);
+global.plantCreated = instance_create_depth(global.xPos, global.yPos, -global.yCord, obj_plant);
 global.plantCreated.type = 1; 
 global.plantCreated.name = "Mystic Lettuce"; 
 global.plantCreated.myLocX = global.xCord; 
@@ -53,7 +53,7 @@ with (obj_gridSpace) {
 		global.yPos = y;
 	}	
 }
-global.plantCreated = instance_create_depth(global.xPos, global.yPos, -1, obj_plant);
+global.plantCreated = instance_create_depth(global.xPos, global.yPos, -global.yCord, obj_plant);
 global.plantCreated.type = 1; 
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
@@ -75,7 +75,7 @@ with (obj_gridSpace) {
 	}	
 }
 
-global.plantCreated = instance_create_depth(global.xPos, global.yPos, -1, obj_plant);
+global.plantCreated = instance_create_depth(global.xPos, global.yPos, -global.yCord, obj_plant);
 global.plantCreated.type = 1; 
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
