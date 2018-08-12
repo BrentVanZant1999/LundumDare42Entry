@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1eecddf2-e8ec-4ab5-889e-76f3eb50af78",
+            "Value": {
+                "id": "b9cffe20-0b9e-496d-ad73-74900fc0eb27",
+                "resourcePath": "scripts\\createPlant\\createPlant.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22a44402-6d08-40ac-8f52-5789fdff0a7f",
             "Value": {
                 "id": "e3e931b1-d0a4-469f-a75b-82bc99cb603f",
@@ -574,7 +582,8 @@
         "d17899e9-457e-4254-9089-42b02321c3b4",
         "6fe01521-aaa0-4bd6-b646-5dbeea5eee3f",
         "a4f2a232-fa46-4063-962c-a6e33cbe3267",
-        "4d71ec9f-a122-492b-a900-bb98875314e2"
+        "4d71ec9f-a122-492b-a900-bb98875314e2",
+        "1eecddf2-e8ec-4ab5-889e-76f3eb50af78"
     ],
     "tutorial": ""
 }

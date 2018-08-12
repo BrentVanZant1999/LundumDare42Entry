@@ -22,6 +22,7 @@ myRandVar4 = random_range(0,100);
 		global.plantCr.type =type; 
 		global.plantCr.myLocX = global.xSpace+1; 
 		global.plantCr.myLocY = global.ySpace; 
+		obj_dataTracker.grid[global.xSpace+1,global.ySpace] = type;
 		with (obj_gridSpace) {
 			if ( myX == global.xSpace+1 && myY == global.ySpace )	{
 				content = 	global.plantCr; 

@@ -16,8 +16,17 @@ marketTextMaxX = 120;
 priceAdjustmentTicker = 150;
 potionCostMin = 10;
 potionCostMax = 50;
-potionAmount = 24;
+potionAmount = 20;
 potions[0] = 5;
+grid[0,0] = 0;
+gridID[0,0] = noone;
+for (var j = 0; j < 8; j++) {
+	for ( var k = 0; k < 8; k++) {
+		grid[k,j] = 0;
+		gridID[k,j] = noone;
+	}
+}
+
 for (var i = 1; i<potionAmount; i++){
 	potions[i] = irandom_range(potionCostMin,potionCostMax);	
 }
@@ -43,10 +52,6 @@ potionNames[16] = "Rage Potion";
 potionNames[17] = "Void Potion";
 potionNames[18] = "Cystallizing Potion";
 potionNames[19] = "Dissolving Potion";
-potionNames[20] = "Knowledge Potion";
-potionNames[21] = "Luck Potion";
-potionNames[22] = "Golden Touch Potion";
-potionNames[23] = "Gold Transmutation Potion";
 
 
 plant1Spread = 120;

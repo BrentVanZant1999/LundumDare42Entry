@@ -16,6 +16,7 @@ global.plantCreated.type = 1;
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
 global.plantCreated.myLocY = global.yCord; 
+obj_dataTracker.grid[global.xCord,global.yCord] = 1;
 with (obj_gridSpace) {
 	if ( myX == global.xCord && myY == global.yCord )	{
 		content = global.plantCreated; 
@@ -37,6 +38,7 @@ global.plantCreated.type = 1;
 global.plantCreated.name = "Mystic Lettuce"; 
 global.plantCreated.myLocX = global.xCord; 
 global.plantCreated.myLocY = global.yCord; 
+obj_dataTracker.grid[global.xCord,global.yCord] = 1;
 with (obj_gridSpace) {
 	if ( myX == global.xCord && myY == global.yCord )	{
 		content = global.plantCreated; 
@@ -58,6 +60,7 @@ global.plantCreated.type = 1;
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
 global.plantCreated.myLocY = global.yCord; 
+obj_dataTracker.grid[global.xCord,global.yCord] = 1;
 with (obj_gridSpace) {
 	if ( myX == global.xCord && myY == global.yCord )	{
 		content = global.plantCreated; 
@@ -80,6 +83,7 @@ global.plantCreated.type = 1;
 global.plantCreated.name = "Mystic Lettuce";
 global.plantCreated.myLocX = global.xCord; 
 global.plantCreated.myLocY = global.yCord; 
+obj_dataTracker.grid[global.xCord,global.yCord] = 1;
 with (obj_gridSpace) {
 	if ( myX == global.xCord && myY == global.yCord )	{
 		content = global.plantCreated; 
