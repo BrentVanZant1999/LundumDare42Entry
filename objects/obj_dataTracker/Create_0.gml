@@ -19,11 +19,12 @@ potionCostMax = 50;
 potionAmount = 20;
 potions[0] = 5;
 grid[0,0] = 0;
-gridID[0,0] = noone;
+counter = 0;
 for (var j = 0; j < 8; j++) {
 	for ( var k = 0; k < 8; k++) {
 		grid[k,j] = 0;
-		gridID[k,j] = noone;
+		gridID[k,j] = 0;
+		counter++;
 	}
 }
 

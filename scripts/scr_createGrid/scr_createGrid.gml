@@ -13,5 +13,6 @@ for (var i =0; i < size; i++) { //row
 		var created = instance_create_depth(topLeftX+(gridSize*j), topLeftY+(gridSize*i),0,obj_gridSpace);		
 		created.myX = j;
 		created.myY = i; 
+		obj_dataTracker.gridID[j,i] = created;
 	}
 }

@@ -6,18 +6,20 @@ yCord = argument3;
 
 xPos = 0;
 yPos = 0; 
-
-if (obj_dataTracker.grid[xCord,yCord] == 0 )
-{
-	obj_dataTracker.grid[xCord,yCord] = type;
-	var gridPiece = obj_dataTracker.gridID[xCord,yCord]; 
-	xPos = gridPiece.x;
-	yPos = gridPiece.y;
-	var newPlant = instance_create_depth(xPos,yPos, -yCord, obj_plant);
-	newPlant.type = type;
-	newPlant.myLocX = xCord;
-	newPlant.myLocY = yCord;
-	gridPiece.content=newPlant; 
+if (irandom_range(0,99)<chance) {
+	
+	if (obj_dataTracker.grid[xCord,yCord] == 0 )
+	{
+		obj_dataTracker.grid[xCord,yCord] = type;
+		var gridPiece = obj_dataTracker.gridID[xCord,yCord];
+		xPos = gridPiece.x;
+		yPos = gridPiece.y;
+		var newPlant = instance_create_depth(xPos,yPos, -yCord, obj_plant);
+		newPlant.type = type;
+		newPlant.myLocX = xCord;
+		newPlant.myLocY = yCord;
+		gridPiece.content=newPlant; 
+	}
 }
 /*
 with (obj_gridSpace) {
