@@ -1,9 +1,8 @@
 /// @description Setup Global Game Variables
 colorBG = make_color_rgb(47,129,54);
-textColor1 = make_color_rgb(140,96,109);
-textColor2 = make_color_rgb(241,149,104);
-textColor3 = make_color_rgb(108,133,94);
-textColor4 = make_color_rgb(245,191,102);
+textColor1 = make_color_rgb(0,0,0);
+textColor2 = make_color_rgb(255,0,0);
+textColor3 = make_color_rgb(0,255,0);
 textPosX = 390; 
 textPosY = 320;
 
@@ -12,7 +11,8 @@ curSelY = 0;
 
 maxSale = 100;
 minSale = 15;
-
+marketX = 400;
+marketTextMaxX = 120;
 priceAdjustmentTicker = 150;
 potionCostMin = 10;
 potionCostMax = 50;
@@ -47,3 +47,7 @@ potionNames[20] = "Knowledge Potion";
 potionNames[21] = "Luck Potion";
 potionNames[22] = "Golden Touch Potion";
 potionNames[23] = "Gold Transmutation Potion";
+
+
+plant1Spread = 120;
+plant1Growth = 150; 

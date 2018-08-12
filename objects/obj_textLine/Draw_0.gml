@@ -16,10 +16,5 @@ case(2):
 	draw_set_color(obj_dataTracker.textColor3);
 }
 break;
-case(3):
-{
-	draw_set_color(obj_dataTracker.textColor4);
-}
-break;
 }
 draw_text(myX,myY,value);
